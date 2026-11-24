@@ -1,0 +1,4 @@
+node_modules/
+dist/
+.salla-temp/
+.DS_Store
