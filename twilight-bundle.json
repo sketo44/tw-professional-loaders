@@ -1,0 +1,220 @@
+{
+  "name": {
+    "ar": "لودرات احترافية",
+    "en": "Professional Loaders"
+  },
+  "description": {
+    "ar": "حزمة تضم 20 حركة تحميل احترافية قابلة للاختيار والتخصيص داخل صفحات متجر سلة.",
+    "en": "A collection of 20 configurable animated loaders for Salla store pages."
+  },
+  "author_email": "mr2looly@gmail.com",
+  "support_url": "https://wa.me/966580186313",
+  "repository": "https://github.com/sketo44/tw-professional-loaders",
+  "components": [
+    {
+      "title": "لودر احترافي",
+      "icon": "sicon-loader",
+      "name": "professional-loader",
+      "key": "96eb69c6-35a9-40c8-9525-5733d2ef389d",
+      "fields": [
+        {
+          "id": "style",
+          "type": "items",
+          "source": "Manual",
+          "label": "تصميم اللودر",
+          "format": "dropdown-list",
+          "required": true,
+          "options": [
+            {
+              "label": "مشية الكيوي",
+              "value": "kiwi",
+              "key": "kiwi"
+            },
+            {
+              "label": "بوصلة دوّارة",
+              "value": "compass",
+              "key": "compass"
+            },
+            {
+              "label": "شاحنة التوصيل",
+              "value": "truck",
+              "key": "truck"
+            },
+            {
+              "label": "كابيبارا تمشي",
+              "value": "capybara",
+              "key": "capybara"
+            },
+            {
+              "label": "إشارة المرور",
+              "value": "traffic",
+              "key": "traffic"
+            },
+            {
+              "label": "شريط تقدم دافئ",
+              "value": "progress",
+              "key": "progress"
+            },
+            {
+              "label": "مربعات متحوّلة",
+              "value": "blocks",
+              "key": "blocks"
+            },
+            {
+              "label": "تموّج الشعار",
+              "value": "ripple-logo",
+              "key": "ripple-logo"
+            },
+            {
+              "label": "طرفية تكتب وتحذف",
+              "value": "terminal",
+              "key": "terminal"
+            },
+            {
+              "label": "شبكة نيون",
+              "value": "cells",
+              "key": "cells"
+            },
+            {
+              "label": "كرات نابضة",
+              "value": "jumping-balls",
+              "key": "jumping-balls"
+            },
+            {
+              "label": "طائر في السماء",
+              "value": "flying-bird",
+              "key": "flying-bird"
+            },
+            {
+              "label": "كبسولة دوّارة",
+              "value": "capsule",
+              "key": "capsule"
+            },
+            {
+              "label": "قطع ليغو",
+              "value": "legos",
+              "key": "legos"
+            },
+            {
+              "label": "وقت الأكل",
+              "value": "eating",
+              "key": "eating"
+            },
+            {
+              "label": "ساعة رملية",
+              "value": "hourglass",
+              "key": "hourglass"
+            },
+            {
+              "label": "مؤشر تحميل نصي",
+              "value": "tiny-spinner",
+              "key": "tiny-spinner"
+            },
+            {
+              "label": "نقاط ملوّنة",
+              "value": "color-dots",
+              "key": "color-dots"
+            },
+            {
+              "label": "دوائر ناعمة",
+              "value": "soft-circles",
+              "key": "soft-circles"
+            },
+            {
+              "label": "حلقة النسبة",
+              "value": "percent-ring",
+              "key": "percent-ring"
+            }
+          ],
+          "selected": [
+            {
+              "label": "مشية الكيوي",
+              "value": "kiwi",
+              "key": "kiwi"
+            }
+          ]
+        },
+        {
+          "id": "title",
+          "type": "string",
+          "label": "النص الاختياري",
+          "format": "text",
+          "required": false,
+          "value": "جاري التحميل"
+        },
+        {
+          "id": "show_title",
+          "type": "items",
+          "source": "Manual",
+          "label": "إظهار النص",
+          "format": "dropdown-list",
+          "required": true,
+          "options": [
+            {
+              "label": "إظهار",
+              "value": "yes",
+              "key": "yes"
+            },
+            {
+              "label": "إخفاء",
+              "value": "no",
+              "key": "no"
+            }
+          ],
+          "selected": [
+            {
+              "label": "إظهار",
+              "value": "yes",
+              "key": "yes"
+            }
+          ]
+        },
+        {
+          "id": "background",
+          "type": "items",
+          "source": "Manual",
+          "label": "خلفية العرض",
+          "format": "dropdown-list",
+          "required": true,
+          "options": [
+            {
+              "label": "تلقائية",
+              "value": "auto",
+              "key": "auto"
+            },
+            {
+              "label": "فاتحة",
+              "value": "light",
+              "key": "light"
+            },
+            {
+              "label": "داكنة",
+              "value": "dark",
+              "key": "dark"
+            },
+            {
+              "label": "شفافة",
+              "value": "transparent",
+              "key": "transparent"
+            }
+          ],
+          "selected": [
+            {
+              "label": "تلقائية",
+              "value": "auto",
+              "key": "auto"
+            }
+          ]
+        },
+        {
+          "id": "min_height",
+          "type": "string",
+          "label": "ارتفاع مساحة العرض بالبكسل",
+          "format": "number",
+          "required": true,
+          "value": "360"
+        }
+      ]
+    }
+  ]
+}
